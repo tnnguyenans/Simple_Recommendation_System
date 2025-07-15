@@ -1,0 +1,28 @@
+2025-07-16 09:25:04,221 - __main__ - INFO - Starting recommendation system
+2025-07-16 09:25:04,224 - services.recommendation_service.RecommendationService - INFO - Initializing recommendation service with algorithm: collaborative
+2025-07-16 09:25:04,224 - services.collaborative_filtering.CollaborativeFiltering - INFO - Initializing user-based collaborative filtering with cosine similarity
+2025-07-16 09:25:04,224 - services.recommendation_service.RecommendationService - INFO - Collaborative filtering algorithm initialized
+2025-07-16 09:25:04,224 - services.recommendation_service.RecommendationService - INFO - Training recommendation algorithms
+2025-07-16 09:25:04,228 - services.collaborative_filtering.CollaborativeFiltering - INFO - Training collaborative filtering model
+2025-07-16 09:25:04,228 - services.collaborative_filtering.CollaborativeFiltering - INFO - Collaborative filtering model training complete
+2025-07-16 09:25:04,228 - services.recommendation_service.RecommendationService - INFO - Algorithm training completed
+2025-07-16 09:25:04,228 - services.recommendation_service.RecommendationService - INFO - Getting recommendations for user 1, limit=5
+2025-07-16 09:25:04,228 - services.collaborative_filtering.CollaborativeFiltering - INFO - Generating recommendations for user 1
+2025-07-16 09:25:04,228 - services.collaborative_filtering.CollaborativeFiltering - WARNING - No ratings found for user 1
+2025-07-16 09:25:04,228 - services.recommendation_service.RecommendationService - INFO - Returning 0 recommendations for user 1
+2025-07-16 09:25:04,228 - __main__ - INFO - Top 5 recommendations for user 1: []
+2025-07-16 09:25:04,228 - __main__ - INFO - Recommendation system completed
+2025-07-16 09:54:35,440 - __main__ - INFO - Starting recommendation system
+2025-07-16 09:54:35,444 - services.recommendation_service.RecommendationService - INFO - Initializing recommendation service with algorithm: collaborative
+2025-07-16 09:54:35,445 - services.collaborative_filtering.CollaborativeFiltering - INFO - Initializing user-based collaborative filtering with cosine similarity
+2025-07-16 09:54:35,445 - services.recommendation_service.RecommendationService - INFO - Collaborative filtering algorithm initialized
+2025-07-16 09:54:35,445 - services.recommendation_service.RecommendationService - INFO - Training recommendation algorithms
+2025-07-16 09:54:35,445 - services.collaborative_filtering.CollaborativeFiltering - INFO - Training collaborative filtering model
+2025-07-16 09:54:35,445 - services.collaborative_filtering.CollaborativeFiltering - INFO - Collaborative filtering model training complete
+2025-07-16 09:54:35,446 - services.recommendation_service.RecommendationService - INFO - Algorithm training completed
+2025-07-16 09:54:35,446 - services.recommendation_service.RecommendationService - INFO - Getting recommendations for user 1, limit=5
+2025-07-16 09:54:35,446 - services.collaborative_filtering.CollaborativeFiltering - INFO - Generating recommendations for user 1
+2025-07-16 09:54:35,446 - services.collaborative_filtering.CollaborativeFiltering - WARNING - No ratings found for user 1
+2025-07-16 09:54:35,446 - services.recommendation_service.RecommendationService - INFO - Returning 0 recommendations for user 1
+2025-07-16 09:54:35,446 - __main__ - INFO - Top 5 recommendations for user 1: []
+2025-07-16 09:54:35,447 - __main__ - INFO - Recommendation system completed
